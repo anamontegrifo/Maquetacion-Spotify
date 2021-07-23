@@ -1,0 +1,58 @@
+.hero {
+    position: relative;
+    top: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding: 50px 25px 30px;
+    background-color: $ppal-color;
+    font-family: $ppal-font;
+    &__h1{
+    color: white;
+    font-family: $ppal-font;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 20px;
+    }
+    &__h2{
+      color: white;
+      font-family: $ppal-font;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 40px;
+      margin-bottom: 20px;
+    }
+    &__plans{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  }
+  
+.link-plans {
+    color: white;
+    background-color: rgb(30, 172, 73);
+    text-decoration: none;
+    font-family: $ppal-font;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+.terms-hero {
+    display: inline-block;
+    color: white;
+    font-family: $ppal-font;
+    font-size: small;
+    line-height: 18px;
+
+} 
