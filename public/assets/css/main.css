@@ -67,10 +67,10 @@ table {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  background-color: #3d76e0;
   height: 50vh;
   min-height: 270px;
   padding: 40px 25px 40px;
-  background-color: #3d76e0;
   font-family: Helvetica, Arial, sans-serif; }
   .hero__h1 {
     color: white;
@@ -79,6 +79,10 @@ table {
     font-size: 30px;
     line-height: 34px;
     margin-bottom: 10px; }
+    @media all and (min-width: 768px) {
+      .hero__h1 {
+        font-size: 56px;
+        line-height: 66px; } }
   .hero__h2 {
     color: white;
     font-family: Helvetica, Arial, sans-serif;
@@ -86,6 +90,10 @@ table {
     font-size: 16px;
     line-height: 22px;
     margin-bottom: 20px; }
+    @media all and (min-width: 768px) {
+      .hero__h2 {
+        margin-top: 30px;
+        font-size: 20px; } }
   .hero__plans {
     display: flex;
     justify-content: center;
@@ -105,12 +113,24 @@ table {
       justify-content: center;
       align-items: center;
       margin-bottom: 20px; }
+    @media all and (min-width: 768px) {
+      .hero__plans {
+        margin-top: 50px;
+        justify-content: flex-start; } }
   .hero__terms {
     display: inline-block;
     color: white;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 9px;
     line-height: 18px; }
+  @media all and (min-width: 768px) {
+    .hero {
+      background-image: url(../images/premium_dancer.png);
+      background-repeat: no-repeat;
+      background-position: right bottom;
+      background-size: contain;
+      justify-content: flex-end;
+      align-items: flex-start; } }
 
 .main {
   position: relative;

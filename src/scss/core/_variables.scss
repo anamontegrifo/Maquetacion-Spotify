@@ -1,2 +1,14 @@
 $ppal-font: Helvetica, Arial, sans-serif;
 $ppal-color: #3d76e0;
+
+@mixin tablet {
+    @media all and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media all and (min-width: 1200px) {
+        @content;
+    }
+}
