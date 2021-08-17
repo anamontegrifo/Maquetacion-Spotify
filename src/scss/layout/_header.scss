@@ -1,3 +1,9 @@
+.flex-main {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .menu {
     position: fixed;
     z-index: 999;
@@ -34,13 +40,16 @@
         font-weight: 700;
         color: white;
         padding: 0 20px;
+        &:hover {
+          color: rgb(30, 172, 73);
+        }
       }
       @include tablet {
         display: flex;
       }
     }
     @include tablet {
-      height: 80px;
+      height: 70px;
     }
   }
 

@@ -1,5 +1,6 @@
 .footer {
-  position: absolute;
+  position:relative;
+  bottom: 0;
   background-color: black;
   color: white;
   width: 100vw;
@@ -9,6 +10,9 @@
   box-sizing: border-box;
   font-family: $ppal-font;
   font-size: 12px;
+  @include tablet {
+    height: 10vh;
+  }
 }
 .right__links {
   position: absolute;
@@ -17,6 +21,7 @@
   align-items: flex-end;
   right: 20px;
   bottom: 30px;
+  font-size: 11px;
   &--spain-text {
     text-decoration: none;
     color: white;
@@ -43,6 +48,7 @@
   justify-content: start;
   width: 68%;
   bottom: 30px;
+  font-size: 11px;
   &--li {
     text-decoration: none;
     color: white;
