@@ -1,9 +1,8 @@
 .footer {
   position:relative;
-  bottom: 0;
+	bottom: 0;
   background-color: black;
   color: white;
-  width: 100vw;
   min-width: 290px;
   height: 120px;
   padding: 20px;
@@ -11,7 +10,7 @@
   font-family: $ppal-font;
   font-size: 12px;
   @include tablet {
-    height: 10vh;
+    height: 90px;
   }
 }
 .right__links {

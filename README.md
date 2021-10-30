@@ -18,7 +18,7 @@ El objetivo de este ejercicio es aprender a estructurar y maquetar una página w
   </tr>
 </table>
 
-Vamos a maquetar la página de [Spotify](https://www.spotify.com/es/premium/), pero vamos a añadir algunas moficicaciones para hacer nuestro ejercicio más interesante.
+Vamos a maquetar la página de [Spotify](https://www.spotify.com/es/premium/), pero vamos a añadir algunas modificaciones para hacer nuestro ejercicio más interesante.
 
 Modificaciones y requerimientos:
 
