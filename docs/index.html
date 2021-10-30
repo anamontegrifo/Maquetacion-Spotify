@@ -11,86 +11,113 @@
 </head>
 
 <body>
-  <header>
-    <section class="menu">
-      <div>
-        <a href="https://www.spotify.com/es/"><img class="menu__imglogo" src="./assets/images/logo.png" alt="logo" /></a>
-      </div>
+  <div class="flex-main">
+    <header>
+    	<section class="menu">
+    		<div>
+    			<a href="https://www.spotify.com/es/"><img class="menu__imglogo" src="./assets/images/logo.png" alt="logo" /></a>
+    		</div>
 
-      <nav>
-        <a href="https://www.spotify.com/es/"><img class="menu__imgnav" src="./assets/images/menu-icon.png"
-            alt="nav" /></a>
+    		<nav>
+    			<a href="https://www.spotify.com/es/"><img class="menu__imgnav" src="./assets/images/menu-icon.png"
+    					alt="nav" /></a>
+    		</nav>
+    		<nav class="menu__nav">
+    			<ul class="menu__nav--1">
+    				<li><a
+    						href="https://www.spotify.com/ad/premium/?_ga=2.37965923.1557835035.1629193850-1217192473.1577611746&_gac=1.114628981.1626683868.Cj0KCQjwxdSHBhCdARIsAG6zhlWbPfdrY-ek7lgT5HUEgw7Abx57XsN7ZEh4p0G3ERORlC0507Xz3aYaAm5fEALw_wcB"
+    						class="menu__nav--item">Premium</a></li>
+    				<li><a
+    						href="https://support.spotify.com/ad/?_gl=1*4a5hu2*_gcl_aw*R0NMLjE2MjY2ODM4NjguQ2owS0NRand4ZFNIQmhDZEFSSXNBRzZ6aGxXYlBmZHJZLWVrN2xnVDVIVUVndzdBYng1N1hzTjdaRWg0cDBHM0VST1JsQzA1MDdYejNhWWFBbTVmRUFMd193Y0I.*_gcl_dc*R0NMLjE2MjY2ODM4NjguQ2owS0NRand4ZFNIQmhDZEFSSXNBRzZ6aGxXYlBmZHJZLWVrN2xnVDVIVUVndzdBYng1N1hzTjdaRWg0cDBHM0VST1JsQzA1MDdYejNhWWFBbTVmRUFMd193Y0I.&_ga=2.37965923.1557835035.1629193850-1217192473.1577611746&_gac=1.114628981.1626683868.Cj0KCQjwxdSHBhCdARIsAG6zhlWbPfdrY-ek7lgT5HUEgw7Abx57XsN7ZEh4p0G3ERORlC0507Xz3aYaAm5fEALw_wcB"
+    						class="menu__nav--item">Ayuda</a></li>
+    				<li><a href="https://www.spotify.com/ad/download/mac/" class="menu__nav--item">Descargar</a></li>
+    			</ul>
+    			<ul class="menu__nav--2">
+    				<li><a href="https://www.spotify.com/ad/signup/" class="menu__nav--item">Registrarse</a></li>
+    				<li><a
+    						href="https://accounts.spotify.com/es-ES/login/?continue=https:%2F%2Fopen.spotify.com%2F%3Fl2l%3D1&_gl=1*1v67ux6*_gcl_aw*R0NMLjE2MjY2ODM4NjguQ2owS0NRand4ZFNIQmhDZEFSSXNBRzZ6aGxXYlBmZHJZLWVrN2xnVDVIVUVndzdBYng1N1hzTjdaRWg0cDBHM0VST1JsQzA1MDdYejNhWWFBbTVmRUFMd193Y0I.*_gcl_dc*R0NMLjE2MjY2ODM4NjguQ2owS0NRand4ZFNIQmhDZEFSSXNBRzZ6aGxXYlBmZHJZLWVrN2xnVDVIVUVndzdBYng1N1hzTjdaRWg0cDBHM0VST1JsQzA1MDdYejNhWWFBbTVmRUFMd193Y0I.&_ga=2.25189373.1557835035.1629193850-1217192473.1577611746&_gac=1.52884826.1626683868.Cj0KCQjwxdSHBhCdARIsAG6zhlWbPfdrY-ek7lgT5HUEgw7Abx57XsN7ZEh4p0G3ERORlC0507Xz3aYaAm5fEALw_wcB"
+    						class="menu__nav--item">Iniciar sesión</a></li>
+    			</ul>
+    		</nav>
+    	</section>
+    </header>
+    <section class="hero">
+
+        <h1 class="hero__h1">Prueba Premium gratis 3 meses</h1>
+        <h2 class="hero__h2">
+            Escucha millones de canciones sin anuncios, a la carta y sin
+            conexión.
+        </h2>
+
+        <div class="hero__plans">
+            <a class="hero__plans--link"
+                href="https://www.spotify.com/es/signup/?forward_url=https%3A%2F%2Fwww.spotify.com%2Fes%2Fdownload%2F"
+                target="_blank">descarga spotify gratis</a>
+        </div>
+
+        <div class="hero__terms">
+            <p>
+                <a class="hero__terms" href="https://www.spotify.com/es/legal/premium-promotional-offer-terms/"
+                    target="_blank">Consulta
+                    los Términos y condiciones.</a>
+                Los tres meses gratis no están disponibles para quienes ya hayan
+                probado Premium.
+            </p>
+        </div>
+    </section>
+    <main>
+      <section class="main">
+        <h2 class="main__h2">¿Por qué pasarte a Premium?</h2>
+
+        <ul class="main__content">
+          <li class="main__content--article">
+            <img class="main__content--image" src="./assets/images/benefit-1.png" alt="download" />
+
+            <div>
+              <h3>Descarga música.</h3>
+              <p>Llévala siempre contigo.</p>
+            </div>
+          </li>
+          <li class="main__content--article">
+            <img class="main__content--image" src="./assets/images/benefit-2.png" alt="" />
+            <div>
+              <h3>Sin anuncios.</h3>
+              <p>Disfruta de música sin interrupciones.</p>
+            </div>
+          </li>
+          <li class="main__content--article">
+            <img class="main__content--image" src="./assets/images/benefit-3.png" alt="" />
+            <div>
+              <h3>Escucha lo que quieras.</h3>
+              <p>Incluso en el móvil.</p>
+            </div>
+          </li>
+          <li class="main__content--article">
+            <img class="main__content--image" src="./assets/images/benefit-4.png" alt="" />
+            <div>
+              <h3>Salta todas las canciones que quieras.</h3>
+              <p>Simplemente dale a siguiente.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="right__links">
+        <a class="right__links--spain-text" href="https://www.spotify.com/es/select-your-country-region/" target="_blank">
+          España&nbsp;&nbsp;&nbsp;<img class="right__links--spain-png" src="./assets/images/spain.png" /></a>
+        <p class="spotify">&copy;&nbsp;2021 Spotify AB</p>
+      </div>
+      <nav class="wrap__links">
+        <a class="wrap__links--li" href="https://www.spotify.com/es/legal/end-user-agreement/">Legal</a>
+        <a class="wrap__links--li"
+          href="https://www.spotify.com/es/premium/?utm_source=es-es_brand_contextual-desktop_text&utm_medium=paidsearch&utm_campaign=alwayson_emea_es_premiumbusiness_premium_brand+contextual-desktop+text+exact+es-es+google&gclid=Cj0KCQjw_8mHBhClARIsABfFgpi8ykUvXpoN3tX0x0PdJqS1JzOB4djhhnukCBlgxTn04JcgEugTSUUaAte4EALw_wcB&gclsrc=aw.ds">Configuración
+          de cookies</a>
+        <a class="wrap__links--li" href="https://www.spotify.com/es/legal/privacy-policy/#s3">Información sobre los
+          anuncios</a>
       </nav>
-    </section>
-  </header>
-  <section class="hero">
-      <div>
-          <h1 class="hero__h1">Prueba Premium gratis 3 meses</h1>
-          <h2 class="hero__h2">
-              Escucha millones de canciones sin anuncios, a la carta y sin
-              conexión.
-          </h2>
-
-          <div class="hero__plans">
-              <a class="hero__plans--link"
-                  href="https://www.spotify.com/es/signup/?forward_url=https%3A%2F%2Fwww.spotify.com%2Fes%2Fdownload%2F"
-                  target="_blank">DESCARGA SPOTIFY GRATIS</a>
-          </div>
-
-          <div class="hero__terms">
-              <p>
-                  <a class="hero__terms" href="https://www.spotify.com/es/legal/premium-promotional-offer-terms/"
-                      target="_blank">Consulta
-                      los Términos y condiciones.</a>
-                  Los tres meses gratis no están disponibles para quienes ya hayan
-                  probado Premium.
-              </p>
-          </div>
-      </div>
-  </section>
-  <main>
-    <section class="main">
-      <h2 class="main__h2">¿Por qué pasarte a Premium?</h2>
-
-      <ul class="main__content">
-        <li class="main__content--article">
-          <img class="main__content--image" src="./assets/images/benefit-1.png" alt="download" />
-          <h3>Descarga música.</h3>
-          <p>Llévala siempre contigo.</p>
-        </li>
-        <li class="main__content--article">
-          <img class="main__content--image" src="./assets/images/benefit-2.png" alt="" />
-          <h3>Sin anuncios.</h3>
-          <p>Disfruta de música sin interrupciones.</p>
-        </li>
-        <li class="main__content--article">
-          <img class="main__content--image" src="./assets/images/benefit-3.png" alt="" />
-          <h3>Escucha lo que quieras.</h3>
-          <p>Incluso en el móvil.</p>
-        </li>
-        <li class="main__content--article">
-          <img class="main__content--image" src="./assets/images/benefit-4.png" alt="" />
-          <h3>Salta todas las canciones que quieras.</h3>
-          <p>Simplemente dale a siguiente.</p>
-        </li>
-      </ul>
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="right__links">
-      <a class="right__links--spain-text" href="https://www.spotify.com/es/select-your-country-region/" target="_blank">
-        España&nbsp;&nbsp;&nbsp;<img class="right__links--spain-png" src="./assets/images/spain.png" /></a>
-      <p class="spotify">&copy;&nbsp;2021 Spotify AB</p>
-    </div>
-    <nav class="wrap__links">
-      <a class="wrap__links--li" href="https://www.spotify.com/es/legal/end-user-agreement/">Legal</a>
-      <a class="wrap__links--li"
-        href="https://www.spotify.com/es/premium/?utm_source=es-es_brand_contextual-desktop_text&utm_medium=paidsearch&utm_campaign=alwayson_emea_es_premiumbusiness_premium_brand+contextual-desktop+text+exact+es-es+google&gclid=Cj0KCQjw_8mHBhClARIsABfFgpi8ykUvXpoN3tX0x0PdJqS1JzOB4djhhnukCBlgxTn04JcgEugTSUUaAte4EALw_wcB&gclsrc=aw.ds">Configuración
-        de cookies</a>
-      <a class="wrap__links--li" href="https://www.spotify.com/es/legal/privacy-policy/#s3">Información sobre los
-        anuncios</a>
-    </nav>
-  </footer>
+    </footer>
+  </div>
 </body>
 
 </html>
